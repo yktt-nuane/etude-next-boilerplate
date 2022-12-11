@@ -3,7 +3,8 @@
     "next/core-web-vitals",
   "eslint:recommended", // eslint推奨ルール設定
   "plugin:@typescript-eslint/recommended", // typescript-eslintの推奨ルール設定
-  "prettier" // Prettierとの競合ルールをOFFにする（他の設定を上書きするため、最終行に記述する必要有り）
+  "prettier", // Prettierとの競合ルールをOFFにする（他の設定を上書きするため、最終行に記述する必要有り）
+  "plugin:storybook/recommended"
   ],
 "plugins": [
   "simple-import-sort", // import文の自動整列を実現
